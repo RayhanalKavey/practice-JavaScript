@@ -199,6 +199,26 @@ if (isOldEnough) {
   const yearLeft = 18 - age;
   console.log(`Kavey is too yound. Wait another ${yearLeft} years.`);
 }
+const birthYear = 1991;
+//const currentYear = prompt("Write current year here.");
+const currentYear = 2007;
+const age = currentYear - birthYear;
+if (age >= 18) {
+  console.log(
+    `Kavey can have driving license, because he is ${age} years old now.`
+  );
+} else {
+  const yearLeft = 18 - age;
+  if (yearLeft === 1) {
+    console.log(
+      `Oh noo! Kavey is too young, because he is ${age} years old now, he needs to wait another ${yearLeft} year.`
+    );
+  } else {
+    console.log(
+      `Oh noo! Kavey is too young, because he is ${age} years old now, he needs to wait another ${yearLeft} years.`
+    );
+  }
+}
 
 ///////////////
 //Define the variable outside of the block, otherwise it will not work(display console.log) outside of the block.
