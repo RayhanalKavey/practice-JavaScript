@@ -157,6 +157,36 @@ if (dolphinsAvgScore > koalasAvgScore && dolphinsAvgScore >= 100) {
   }
   */
 
+console.log(`==========Lecture: The switch statement==========`);
+
+// const language = prompt(`MOST number of native speakers!`);
+// switch (language) {
+//   case "Spanish":
+//   case "spanish":
+//     console.log(`2nd place in number of nativ speakers`);
+//     break;
+//   case "engligh":
+//   case "Engligh":
+//     console.log(`3rd place in number of nativ speakers`);
+//     break;
+//   case "hindi":
+//   case "Hindi":
+//     console.log(`4th place in number of nativ speakers`);
+//     break;
+//   case "arabic":
+//   case "Arabic":
+//     console.log(`5th place in number of nativ speakers`);
+//     break;
+//   default:
+//     console.log(`Great language too :D`);
+// }
+console.log(`==========Lecture: The Conditional (Ternary) Operator ==========`);
+/*
+const population = 168000000;
+population > 33000000
+  ? console.log(`Portugal's population is above average`)
+  : console.log(`Portugal's population is below average`);
+  */
 console.log(`==========ChallengE -4==========`);
 /*
 const billValue = 275;
