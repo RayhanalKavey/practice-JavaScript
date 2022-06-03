@@ -409,7 +409,7 @@ if (hasDriversLicence && hasGoodVision && !isTired) {
 */
 /*
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////   Challenge #3   ////////////
+////////////////   ChallengE #3   ////////////
 /////////  Problem 1:
 const dolphinsFirstMember = 96;
 const dolphinsSecondMember = 108;
@@ -487,6 +487,13 @@ switch (day) {
   default:
     console.log("Not a valid date!"); // same like else in (if else statement)
 }
+/// NotEPrompt will convert the number value into string, so we need to convert it to number again.
+const favourit = Number(prompt(`Please white your favourit number`));
+console.log(typeof favourit);
+if (favourit === 18) console.log(`Is that ${favourit}, your favourit number!?`);
+else if (favourit === 7)
+  console.log(`Is that ${favourit}, its a lucky number that you choose.`);
+else console.log(`You choose ${favourit}, which not 18 or 7. But it's great.`);
 
 ///converting to if else statement (Assignment)
 if (day === "monday") {

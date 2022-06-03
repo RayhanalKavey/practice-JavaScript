@@ -59,7 +59,7 @@ console.log(`==========Lecture: Basic Operators ==========`);
 // console.log(description);
 
 /////////////////Challenge -1
-console.log(`==========Challenge -1 ==========`);
+console.log(`==========ChallengE -1 ==========`);
 // const marksHight = 78;
 // const marksMass = 1.69;
 // const johnsHight = 92;
@@ -70,8 +70,9 @@ console.log(`==========Challenge -1 ==========`);
 // if (markshigherBMI) console.log(`Marks BMI is higher the Johns`);
 // johnshigherBMI = johnsBMI > marksBMI;
 // if (johnshigherBMI) console.log(`Johna BMI is higher the Marks`);
+
 /////////////////Challenge -2
-console.log(`==========Challenge -2 ==========`);
+console.log(`==========ChallengE -2 ==========`);
 // const marksHight = 95;
 // const marksMass = 1.69;
 // const johnsHight = 78;
@@ -90,3 +91,89 @@ console.log(`==========Challenge -2 ==========`);
 //     `John's BMI (${johnsBMI} is higher then Mark's BMI (${marksBMI}) )`
 //   );
 // }
+console.log(`==========Lecture: Type conversion and type coercion==========`);
+/*
+console.log("9" - "5"); //4
+console.log("19" - "13" + "17"); //617
+console.log("19" - "13" + 17); //23
+console.log("123" < 57); //false
+console.log(5 + 6 + "4" + 9 - 4 - 2); //1143
+*/
+/////////////////Lecture: Equality Operators: (== vs ===)
+console.log(`==========Lecture: Equality Operators: (== vs ===)==========`);
+/*
+const numNeighbours = Number(
+  prompt(`How many neighbour countries does your country have?`)
+);
+if (numNeighbours === 1) {
+  console.log(`Only ${numNeighbours} border`);
+} else if (numNeighbours > 1) {
+  console.log(`More than 1 border`);
+} else {
+  console.log(`No border`);
+}
+*/
+
+console.log(`==========Lecture: Logical Operator==========`);
+/*
+const languageEngligh = true;
+const hasLess50million = true;
+const isIland = false;
+if (languageEngligh && hasLess50million && !isIland) {
+  console.log(`You should live in Portygal :)`);
+} else {
+  console.log(`Portugal does not meet your criteria :(`);
+}
+*/
+console.log(`==========ChallengE -3==========`);
+/*
+// //NotE Test Data
+// const dolphinsAvgScore = (96 + 108 + 89) / 3;
+// const koalasAvgScore = (88 + 91 + 110) / 3;
+//NotE Test Data
+const dolphinsAvgScore = (96 + 108 + 89) / 3;
+const koalasAvgScore = (960 + 108 + 89) / 3;
+// // NotE Bonous Test Data1
+// const dolphinsAvgScore = (97 + 112 + 101) / 3;
+// const koalasAvgScore = (109 + 95 + 123) / 3;
+// // NotE Bonous Test Data2
+// const dolphinsAvgScore = (97 + 112 + 101) / 3;
+// const koalasAvgScore = (109 + 95 + 106) / 3;
+console.log(dolphinsAvgScore, koalasAvgScore);
+
+if (dolphinsAvgScore > koalasAvgScore && dolphinsAvgScore >= 100) {
+  console.log(`Dolphines wins`);
+} else if (dolphinsAvgScore < koalasAvgScore && koalasAvgScore >= 100) {
+  console.log(`Koalas wins`);
+} else if (
+  dolphinsAvgScore === koalasAvgScore &&
+  dolphinsAvgScore >= 100 &&
+  koalasAvgScore >= 100
+  ) {
+    console.log(`its a deaw`);
+  } else {
+    console.log(`Dolphines score '${dolphinsAvgScore}', which is less then 100`);
+    console.log(`koalas score '${koalasAvgScore}', which is less then 100`);
+  }
+  */
+
+console.log(`==========ChallengE -4==========`);
+/*
+const billValue = 275;
+tipValue =
+  billValue >= 50 && billValue <= 300
+    ? billValue * (15 / 100)
+    : billValue * (20 / 100);
+
+// let tipValue;
+// if (billValue >= 50 && billValue <= 300) {
+//   tipValue = billValue * (15 / 100);
+// } else {
+//   tipValue = billValue * (20 / 100);
+// }
+console.log(
+  `The bill was ${billValue}, the was ${tipValue}, and the total value is ${
+    billValue + tipValue
+  }`
+);
+*/
