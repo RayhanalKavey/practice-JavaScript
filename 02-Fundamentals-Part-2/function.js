@@ -176,3 +176,19 @@
 // scoreDolphines = calcAverage(85, 54, 41);
 // scoreKoalas = calcAverage(23, 34, 27);
 // checkWinner(scoreDolphines, scoreKoalas);
+////NotE Experimental
+/*
+//ternary operator and arrow function together
+const currentYear = 2022;
+const retirementAge = 65;
+const yearsUntilRetirement = (birthYear, firstName) => {
+  const age = currentYear - birthYear;
+  const retirement = retirementAge - age;
+  return retirement < 0
+    ? ` ${firstName} will retire within ${retirement} ${
+        retirement > 1 ? `years.` : `year.`
+      }`
+    : `${firstName} already retired`;
+};
+console.log(yearsUntilRetirement(1957, "Kavey"));
+*/
