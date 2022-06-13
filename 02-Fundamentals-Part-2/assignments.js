@@ -64,3 +64,65 @@ dolphineAverageScore = calcAverage(...dolphineScores);
 koalasAverageScore = calcAverage(...koalasScores);
 checkWinner(dolphineAverageScore, koalasAverageScore);
 */
+/*
+console.log(`============Lecture:Introduction to Array==========`);
+const worldPopulation = 7900;
+
+const populations = [168, 33, 42, 120];
+if ((populations.length = 4)) {
+  console.log(`The array elements has 4 element`);
+}
+const percentageOfWorld1 = function (population) {
+  return (population / worldPopulation) * 100;
+};
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages);
+*/
+/*
+console.log(`============Lecture:Basic Array Operation( Methods)==========`);
+//1
+const neighbours = ["Maynmar", "India"];
+//2
+neighbours.push("Uthopia");
+console.log(neighbours);
+//3
+neighbours.pop();
+console.log(neighbours);
+//4
+if (!neighbours.includes("Germany")) {
+  console.log(`Probably not a central European country 🤪`);
+}
+//5
+console.log(neighbours.indexOf("India"));
+neighbours[1] = "Republic of Sweden";
+console.log(neighbours);
+*/
+/*
+console.log(`===========Coding challenge #2==============`);
+let billValue = [125, 555, 44];
+
+const calcTip = function (billValue) {
+  if (billValue >= 50 && billValue <= 300) {
+    return billValue * (15 / 100);
+  } else {
+    return billValue * (20 / 100);
+  }
+};
+const tipValue = [
+  calcTip(billValue[0]),
+  calcTip(billValue[1]),
+  calcTip(billValue[billValue.length - 1]),
+];
+console.log(tipValue);
+const totalValue = [
+  tipValue[0] + billValue[0],
+  tipValue[1] + billValue[1],
+  tipValue[tipValue.length - 1] + billValue[billValue.length - 1],
+];
+console.log(totalValue);
+*/
